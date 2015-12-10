@@ -1,0 +1,350 @@
+
+#god {
+	position: relative;
+	margin:auto;
+	width:400px;
+	height:400px;
+}
+
+#rightcuff {
+	position: fixed;
+	left: 225px;
+	top: 50px;
+	width: 170px;
+    height: 170px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+55,fefefe+79,fefefe+79,dbdbdb+94 */
+background: rgb(226,226,226); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(226,226,226,1) 0%, rgba(219,219,219,1) 55%, rgba(254,254,254,1) 79%, rgba(254,254,254,1) 79%, rgba(219,219,219,1) 94%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 55%,rgba(254,254,254,1) 79%,rgba(254,254,254,1) 79%,rgba(219,219,219,1) 94%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 55%,rgba(254,254,254,1) 79%,rgba(254,254,254,1) 79%,rgba(219,219,219,1) 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#dbdbdb',GradientType=0 ); /* IE6-9 */
+;
+    z-index:1;
+}
+
+
+
+#leftcuff{
+	position: fixed;
+	left: 25px;
+	top: 50px;
+	width: 170px;
+    height: 170px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+55,fefefe+79,fefefe+79,dbdbdb+94 */
+background: rgb(226,226,226); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(226,226,226,1) 0%, rgba(219,219,219,1) 55%, rgba(254,254,254,1) 79%, rgba(254,254,254,1) 79%, rgba(219,219,219,1) 94%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 55%,rgba(254,254,254,1) 79%,rgba(254,254,254,1) 79%,rgba(219,219,219,1) 94%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 55%,rgba(254,254,254,1) 79%,rgba(254,254,254,1) 79%,rgba(219,219,219,1) 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#dbdbdb',GradientType=0 ); /* IE6-9 */
+;
+
+    z-index:1;
+}
+
+#leftwhite {	
+	position: fixed;
+	left: 35px;
+	top: 60px;
+	width: 150px;
+    height: 150px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:white;
+    z-index:2;}
+
+
+
+#rightwhite {	
+	position: fixed;
+	left: 235px;
+	top: 60px;
+	width: 150px;
+    height: 150px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:white;
+    z-index:2;}
+
+
+    #circle{
+	position: fixed;
+	left: 125px;
+	top: 20px;
+	width: 20px;
+    height: 40px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:gray;
+    z-index:3;
+
+
+}
+
+#inner1{
+	position: fixed;
+	left: 130px;
+	top: 30px;
+	width: 10px;
+    height: 20px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:white;
+    z-index:4;
+
+
+
+}
+
+
+  #circle2{
+	position: fixed;
+	left: 315px;
+	top: 20px;
+	width: 20px;
+    height: 40px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:gray;
+    z-index:5;
+     -ms-transform: rotate(-17deg); /* IE 9 */
+    -webkit-transform: rotate(-17deg); /* Chrome, Safari, Opera */
+    transform: rotate(-17deg);
+}
+
+
+#inner2{
+	position: fixed;
+	top:10px;
+	left:5px;
+	width: 10px;
+    height: 20px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:white;
+    z-index:6;
+  
+}
+ 
+ #circle3{
+	position: fixed;
+	left: 295px;
+	top: 05px;
+	width: 20px;
+    height: 40px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:gray;
+    z-index:5;
+     -ms-transform: rotate(-34deg); /* IE 9 */
+    -webkit-transform: rotate(-34deg); /* Chrome, Safari, Opera */
+    transform: rotate(-34deg);
+}
+
+#inner3{
+	position: fixed;
+	top:10px;
+	left:5px;
+	width: 10px;
+    height: 20px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:white;
+    z-index:6;
+}
+  
+
+#circle4{
+	position: fixed;
+	left: 275px;
+	top: -15px;
+	width: 20px;
+    height: 40px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:gray;
+    z-index:7;
+     -ms-transform: rotate(-70deg); /* IE 9 */
+    -webkit-transform: rotate(-70deg); /* Chrome, Safari, Opera */
+    transform: rotate(-70deg);
+}
+
+#inner4{
+	position: fixed;
+	top:10px;
+	left:5px;
+	width: 10px;
+    height: 20px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:white;
+    z-index:8;}
+
+#circle5{
+	position: fixed;
+	left: 245px;
+	top: -15px;
+	width: 20px;
+    height: 40px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:gray;
+    z-index:7;
+     -ms-transform: rotate(100deg); /* IE 9 */
+    -webkit-transform: rotate(100deg); /* Chrome, Safari, Opera */
+    transform: rotate(100deg);
+}
+
+#inner5{
+	position: fixed;
+	top:10px;
+	left:5px;
+	width: 10px;
+    height: 20px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px; 
+    background-color:white;
+    z-index:8;
+}
+
+#circle6{
+	position: fixed;
+	left: 215px;
+	top: -15px;
+	width: 20px;
+    height: 40px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:gray;
+    z-index:7;
+     -ms-transform: rotate(100deg); /* IE 9 */
+    -webkit-transform: rotate(100deg); /* Chrome, Safari, Opera */
+    transform: rotate(100deg);
+}
+
+#inner6{
+	position: fixed;
+	top:10px;
+	left:5px;
+	width: 10px;
+    height: 20px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px; 
+    background-color:white;
+    z-index:8;
+}
+#circle7{
+	position: fixed;
+	left: 185px;
+	top: -15px;
+	width: 20px;
+    height: 40px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:gray;
+    z-index:7;
+     -ms-transform: rotate(100deg); /* IE 9 */
+    -webkit-transform: rotate(100deg); /* Chrome, Safari, Opera */
+    transform: rotate(100deg);
+}
+
+#inner7{
+	position: fixed;
+	top:10px;
+	left:5px;
+	width: 10px;
+    height: 20px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px; 
+    background-color:white;
+    z-index:8;
+}
+
+
+#circle8{
+	position: fixed;
+	left: 155px;
+	top: -15px;
+	width: 20px;
+    height: 40px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:gray;
+    z-index:7;
+     -ms-transform: rotate(210deg); /* IE 9 */
+    -webkit-transform: rotate(210deg); /* Chrome, Safari, Opera */
+    transform: rotate(210deg);
+}
+
+#inner8{
+	position: fixed;
+	top:10px;
+	left:5px;
+	width: 10px;
+    height: 20px;
+    -webkit-border-radius: 210px;
+    -moz-border-radius: 210px;
+    border-radius: 210px; 
+    background-color:white;
+    z-index:8;
+}
+
+
+#circle9{
+	position: fixed;
+	left: 130px;
+	top: 0px;
+	width: 20px;
+    height: 40px;
+    -webkit-border-radius: 85px;
+    -moz-border-radius: 85px;
+    border-radius: 85px; 
+    background-color:gray;
+    z-index:7;
+     -ms-transform: rotate(240deg); /* IE 9 */
+    -webkit-transform: rotate(240deg); /* Chrome, Safari, Opera */
+    transform: rotate(240deg);
+}
+
+#inner9{
+	position: fixed;
+	top:10px;
+	left:5px;
+	width: 10px;
+    height: 20px;
+    -webkit-border-radius: 240px;
+    -moz-border-radius: 240px;
+    border-radius: 240px; 
+    background-color:white;
+    z-index:8;
+}
+
+
+  
+  
+
+
+
+
